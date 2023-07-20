@@ -19,16 +19,16 @@ input[type=text], select {
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
+    width: fit-content;
+    display: flexbox;
+    margin-left: 200px;
+    margin-top: 90px;
+    margin-right: 90px;
+    
   }
-        body {
-            margin: 400px;
-
-            
-        }
-        .container{
-            border-radius: 20px;
-            margin-top: -300px;
-            align-items: center;
-            border-color: #104406;
-        }
-        
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
