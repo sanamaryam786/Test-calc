@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function MultiplyBy()
+{
+         num1 = document.getElementById("firstNumber").value;
+         num2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+        
+
+}
+
+    </script>
+        </head>
+        <body>
+            <!-- <form>
+            <div class="container">
+        Enter Your 1st Number : <input type="text" id="firstNumber" /><br>
+        Enter Your 2nd Number: <input type="text" id="secondNumber" /><br>
+        <input type="button" onClick="addNumber()" Value="Sum" />
+        </form>
+        
+        <p>The Result is : <br>
+            
+        <span id = "result"></span>
+        </p>
+            </div> -->
+            <div class="container">
+                <form>
+                  
+                  Enter Your 1st Number : <input type="text" id="firstNumber" /><br>
+              
+                  Enter Your 2nd Number: <input type="text" id="secondNumber" /><br>
+                  
+                  
+                  <p>The Result is : <br>
+            
+                    <span id = "result"></span>
+                    </p>
+
+                    <div class="button">
+                        <input type="button" onClick="MultiplyBy()" Value="MultiplyBy"style="height: 50px;width: 100px;">
+                        <input type="reset"  onClick="Reset()" value="Reset" style="height: 50px;width: 100px;">
+                        </div>
+                    
+                    <h1> Sana Maryam &#169 2023</h1>
+                    
+        
+                
+                  
+                </form>
+              </div>
+              
+</body>
+</html>
